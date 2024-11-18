@@ -7,7 +7,7 @@ import numpy as np
 # Load the pre-trained model
 @st.cache_resource
 def load_trained_model():
-    model_path = r"E:\Horizon\4th Year\1st Semester\Final Project\Colab\plant_disease_model.h5"  
+    model_path = r"https://drive.google.com/file/d/1-4DWU9E-ys1eIp_ah0wuMJE_WzGYegen/view?usp=drive_link"  
     return load_model(model_path)
 
 model = load_trained_model()
